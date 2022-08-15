@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import PowerButton from '../subComponents/PowerButton'
 
 const MainContainer = styled.div`
 background: ${props => props.theme.body};
 width:100vw;
-height:100vh;
+height:100vh; 
 overflow:hidden;
 
 position:relative;
@@ -23,7 +24,7 @@ const Main = () => {
     return (
         <MainContainer>
             <Container>
-                Main Component/Page
+                <PowerButton />
             </Container>
         </MainContainer>
     )
