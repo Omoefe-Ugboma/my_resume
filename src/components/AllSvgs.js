@@ -1,14 +1,12 @@
 // Creation of svg as a react components
 
-import React from 'react'
-
 export const PowerBtn = (props) => {
     return (
         <svg
             aria-hidden="true"
             data-prefix="fas"
             data-icon="power-off"
-            className="svg-inline--fa fa-power-off fa-w-16"
+            className="prefix__svg-inline--fa prefix__fa-power-off prefix__fa-w-16"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
             {...props}
