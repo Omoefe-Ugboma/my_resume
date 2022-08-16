@@ -44,7 +44,7 @@ const AnchorComponent = (props) => {
             let diffP = (diff * 100) / (bodyHeight - windowSize);
             ref.current.style.transform = `translateY(${-diffP}%)`
 
-            if (window.pageYOffset) {
+            if (window.pageYOffset > 5) {
                 hiddenRef.current.style.display = 'none'
             } else {
                 hiddenRef.current.style.display = 'block'
