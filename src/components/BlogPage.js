@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import img from '../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg'
 import LogoComponent from '../subComponents/LogoComponent'
@@ -7,6 +7,7 @@ import SocialIcons from '../subComponents/SocialIcons'
 
 import { Blogs } from '../data/BlogData'
 import BlogComponent from './BlogComponent'
+import AnchorComponent from '../subComponents/Anchor'
 
 const MainContainer = styled.div`
 background-image:url(${img});
@@ -39,12 +40,21 @@ grid-gap:calc(1rem + 2vw);
 `
 
 export const BlogPage = () => {
+
+    const [numbers, setNumbers] = useState(0);
+
+    useEffect(() => {
+        let num = (window.innerHeight - 70) / 30;
+        setNumbers(parseInt(num));
+    }, [])
+
     return (
         <MainContainer>
             <Container>
                 <LogoComponent />
                 <PowerButton />
                 <SocialIcons />
+                <AnchorComponent numbers={numbers} />
                 <Center>
                     <Grid>
                         {
