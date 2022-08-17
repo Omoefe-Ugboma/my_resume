@@ -39,7 +39,7 @@ padding:2rem;
 width:50vw;
 height:60vh;
 z-index:3;
-line-height:1.5;
+line-height:1.2;
 
 display:flex;
 justify-content:center;
@@ -50,7 +50,6 @@ backdrop-filter:blur(4px);
 position:absolute;
 left:calc(5rem + 5vw);
 top:10rem;
-
 font-family:'Ubuntu Mono', monospace;
 font-style:italic;
 `
