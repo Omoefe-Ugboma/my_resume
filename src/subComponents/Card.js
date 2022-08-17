@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import { Github } from '../components/AllSvgs';
 
 
 const Box = styled.li`
@@ -51,7 +52,28 @@ display:flex;
 justify-content:space-between;
 `
 const Link = styled(NavLink)`
+background-color: ${props => props.theme.body};
+color: ${props => props.theme.text};
+text-decoration: none;
+padding: 0.5rem calc(2rem + 2vw);
+border-radius: 0 0 0 50px;
+font-size:calc(1em + 0.5vw);
 
+${Box}:hover &{
+    background-color: ${props => props.theme.text};  
+    color: ${props => props.theme.body};
+}
+`
+const Git = styled(NavLink)`
+color: inherit;
+text-decoration: none;
+ 
+
+${Box}:hover &{
+    &>*{
+        fill: ${props => props.theme.text};  
+    }
+}
 `
 
 const Card = (props) => {
@@ -75,6 +97,9 @@ const Card = (props) => {
                 <Link to={{ pathname: `${demo}` }} target="_blank">
                     Visit
                 </Link>
+                <Git to={{ pathname: `${github}` }} target="_blank">
+                    <Github width={30} height={30} />
+                </Git>
             </Footer>
         </Box>
     )
