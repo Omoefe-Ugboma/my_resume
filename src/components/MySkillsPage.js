@@ -2,6 +2,10 @@ import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import { lightTheme } from './Themes'
 import { Design, Develope } from './AllSvgs'
+import LogoComponent from '../subComponents/LogoComponent'
+import SocialIcons from '../subComponents/SocialIcons'
+import PowerButton from '../subComponents/PowerButton'
+import ParticleComponent from '../subComponents/ParticleComponent'
 
 const Box = styled.div`
 background-color:${props => props.theme.body};
@@ -21,6 +25,7 @@ width:30vw;
 height:60vh;
 z-index:3;
 line-height:1.5;
+cursor:pointer;
 
 font-family:'Ubuntu Nono',monospace;
 display:flex;
@@ -55,9 +60,9 @@ font-size:calc(0.6em + 1vw);
 padding:0.5rem 0;
 
 ${Main}:hover &{
-    &>*{
+     
         color:${props => props.theme.body};
-    }
+  
 }
 
 strong{
@@ -73,6 +78,11 @@ const MySkillsPage = () => {
     return (
         <ThemeProvider theme={lightTheme}>
             <Box>
+
+                <LogoComponent theme='light' />
+                <SocialIcons theme='light' />
+                <PowerButton />
+                <ParticleComponent theme='light' />
                 <Main>
                     <Title>
                         <Design width={40} height={40} /> Designer
