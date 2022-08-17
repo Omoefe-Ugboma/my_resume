@@ -1,6 +1,7 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import { lightTheme } from './Themes'
+import { Design, Develope } from './AllSvgs'
 
 const Box = styled.div`
 background-color:${props => props.theme.body};
@@ -20,6 +21,52 @@ width:30vw;
 height:60vh;
 z-index:3;
 line-height:1.5;
+
+font-family:'Ubuntu Nono',monospace;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+
+&:hover{
+    color:${props => props.theme.body};
+    background-color:${props => props.theme.text};
+}
+`
+const Title = styled.h2`
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:calc(1em + 1vw);
+
+${Main}:hover &{
+    &>*{
+        fill:${props => props.theme.body};
+    }
+}
+
+&>*:first-child{
+    margin-right:1rem;
+}
+
+`
+const Description = styled.div`
+color: ${props => props.theme.text};
+font-size:calc(0.6em + 1vw);
+padding:0.5rem 0;
+
+${Main}:hover &{
+    &>*{
+        color:${props => props.theme.body};
+    }
+}
+
+strong{
+    margin-bottom:1rem;
+    text-transform:uppercase;
+}
+ul,p{
+    margin-left:2rem;
+}
 `
 
 const MySkillsPage = () => {
@@ -27,7 +74,47 @@ const MySkillsPage = () => {
         <ThemeProvider theme={lightTheme}>
             <Box>
                 <Main>
-                    MySkillsPage Component/Page
+                    <Title>
+                        <Design width={40} height={40} /> Designer
+                    </Title>
+                    <Description>
+                        I love to create design which speaks, keep it clean, minimal and simple.
+                    </Description>
+                    <Description>
+                        <strong>I like to Design</strong>
+                        <ul>
+                            <li>
+                                Web Design
+                            </li>
+                            <li>
+                                Mobile Apps
+                            </li>
+                        </ul>
+                    </Description>
+                    <Description>
+                        <strong>Tools</strong>
+                        <ul>
+                            <li>
+                                Figma
+                            </li>
+                        </ul>
+                    </Description>
+                </Main>
+                <Main>
+                    <Title>
+                        <Develope width={40} height={40} /> Frontend Developer
+                    </Title>
+                    <Description>
+                        I love to create design which speaks, keep it clean, minimal and simple.
+                    </Description>
+                    <Description>
+                        <strong>Skills</strong>
+                        <p>Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.</p>
+                    </Description>
+                    <Description>
+                        <strong>Tools</strong>
+                        <p>VScode, Github, Codepen etc.</p>
+                    </Description>
                 </Main>
             </Box>
         </ThemeProvider>
