@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 
@@ -45,6 +46,13 @@ const Tag = styled.span`
 margin-right: 1rem;
 font-size:calc(0.8em + 0.3vw);
 `
+const Footer = styled.footer`
+display:flex;
+justify-content:space-between;
+`
+const Link = styled(NavLink)`
+
+`
 
 const Card = (props) => {
 
@@ -63,6 +71,11 @@ const Card = (props) => {
                     })
                 }
             </Tags>
+            <Footer>
+                <Link to={{ pathname: `${demo}` }} target="_blank">
+                    Visit
+                </Link>
+            </Footer>
         </Box>
     )
 }
