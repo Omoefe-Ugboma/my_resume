@@ -10,6 +10,7 @@ import BlogPage from './components/BlogPage'
 import WorkPage from './components/WorkPage'
 import MySkillsPage from './components/MySkillsPage'
 import { AnimatePresence } from "framer-motion"
+import SoundBar from "./subComponents/SoundBar"
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
     <GlobalStyle />
 
     <ThemeProvider theme={lightTheme}>
+
+      <SoundBar />
+
       {/* For framer-motion anition on page change! */}
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
