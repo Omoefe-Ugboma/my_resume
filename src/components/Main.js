@@ -198,7 +198,7 @@ const Main = () => {
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.9 }}
                         >
-                            About
+                            About me
                         </motion.h2>
                     </ABOUT>
                     <SKILLS to="/skills">
