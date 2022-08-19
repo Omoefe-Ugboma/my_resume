@@ -151,7 +151,7 @@ const Main = () => {
                         Say hi...
                     </motion.h2>
                 </Contact>
-                <BLOG to="/blog">
+                <BLOG to="/experience">
                     <motion.h2
                         initial={{
                             y: -200,
@@ -165,7 +165,7 @@ const Main = () => {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                     >
-                        Blog
+                        Experience
                     </motion.h2>
                 </BLOG>
                 <WORK to="/work" click={click}>
