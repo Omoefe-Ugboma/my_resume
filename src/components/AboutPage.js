@@ -37,8 +37,8 @@ const Main = styled.div`
 border: 2px solid ${props => props.theme.text};
 color:${props => props.theme.text};
 padding:2rem;
-width:50vw;
-height:60vh;
+width:60vw;
+height:65vh;
 z-index:3;
 line-height:1.2;
 
@@ -50,7 +50,7 @@ backdrop-filter:blur(4px);
 
 position:absolute;
 left:calc(5rem + 5vw);
-top:10rem;
+top:8rem;
 font-family:'Ubuntu Mono', monospace;
 font-style:italic;
 `
@@ -68,11 +68,13 @@ const AboutPage = () => {
                     <img src={astronaut} alt="spaceman" />
                 </Spaceman>
                 <Main>
-                    I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-                    <br /><br /><br />
-                    I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-                    <br /><br /><br />
-                    I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+                    <br /><br />
+                    "Hello, my name is Omoefe Ugboma, and I graduated from Middlesex University in 2014, with a degree in Information Technology and Business Information System. My interests are in software engineering, and I enjoy making solutions-focused, effective products with wonderful user interfaces.
+                    <br /><br />
+                    I've been highly involved in my daily coding routine, where I create fantastic concepts and make them true. React, Redux, Jest, Babel, Flow, webpack, Hooks, and Redux make up my builts, all of which are mobile-responsive and built using the current web technology stack.".
+                    <br /><br />
+                    I'm interested in the whole modern stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
+
                 </Main>
                 <BigTitle text="ABOUT" top="10%" left="5%" />
             </Box>
