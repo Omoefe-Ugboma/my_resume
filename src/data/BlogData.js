@@ -6,7 +6,7 @@ export const Blogs = [
         // date: "13 June, 2022",
         date: "13 June, 2022 - present",
         imgSrc: "https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link: "https://dev.to/codebucks/build-website-with-reactjs-styled-components-and-gsap-for-scrolling-animations-2f10"
+        link: ""
     },
     {
         id: 2,
@@ -19,52 +19,53 @@ export const Blogs = [
     {
         id: 3,
         name: "Co-Founder and Full-Stack Developer @PromateLink Solutions Limited",
-        tags: ["HTML5", "CSS3", "Bootstrap", "React", "Redux", "Mentorship"],
+        tags: ["HTML5", "CSS3", "Bootstrap", "React", "Redux\n", "Mentorship"],
         date: "2017 Remotely",
         imgSrc: "https://lh6.googleusercontent.com/-kL8Kko8pDCY/AAAAAAAAAAI/AAAAAAAAAAA/TTtWnda8MM4/s60-c-k-mo/photo.jpg",
         link: "https://promatelink-solutions-limited.business.site/"
     },
     {
         id: 4,
-        name: "Back-End Web Developer @African Prudential Plc",
-        tags: ["PHP", "codeigniter 3", "Laravel", "MySQL", "PHPUnit Test"],
+        name: "Senior Faculty Trainer and Web developer @Aptech Education International",
+        tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery\n", "Java", "JSP/Servlet", "web-development", "Software Engineer"],
         date: "2018",
-        imgSrc: "https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-        link: "https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
+        imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDG_oUAs4U_elXPGw2zVEWqEOFFlLGSI_RpIhX4VF2GYYo-xE3gVMifB1vq83XIG5ucDo&usqp=CAU",
+        link: "https://aptech-ng.com/ace/aptech-nigeria.html"
     },
     {
         id: 5,
-        name: "What is Higher Order Component (HOC) in React JS?",
-        tags: ["react", "reactJS", "web-development"],
-        date: "3 Feb, 2021",
-        imgSrc: "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625295480148%2FlyKj8bpHK.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link: "https://codebucks.hashnode.dev/what-is-higher-order-component"
+        name: "Back-End Web Developer @African Prudential Plc",
+        tags: ["PHP", "codeigniter 3", "Laravel", "MySQL", "PHPUnit Test"],
+        date: "2019",
+        imgSrc: "https://pbs.twimg.com/profile_images/1080360101280649216/d2SKgVMm_400x400.jpg",
+        link: "https://africaprudential.com/"
     },
+
     {
         id: 6,
-        name: "How to implement Pagination Component in React from scratch",
-        tags: ["react", "css"],
-        date: "5 Jan, 2021",
-        imgSrc: "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625240050668%2FGAya9b0XK.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-        link: "https://codebucks.hashnode.dev/pagination-in-react"
+        name: "Project Lead - Full Stack Developer @Jooglee Online Powered by Moneybox Africa",
+        tags: ["HTML5", "CSS3", "JavaScript", "jQuery", "Bootstrap", "PHP\n", "MySQL", "Draw.io"],
+        date: "2017 - Remotely",
+        imgSrc: "",
+        link: ""
 
     },
 
     {
         id: 7,
-        name: "What is Redux ? Simply Explained!",
-        tags: ["react", "redux", "javascript"],
-        date: "16 May, 2021",
-        imgSrc: "https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
-        link: "https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
+        name: "Senior Faculty Head @Forte Soft Systems Limited [NIIT EDUCATION]",
+        tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery\n", "Java", "JSP/Servlet", "web-development", "Software Engineer", "Software Project Management"],
+        date: "2015",
+        imgSrc: "https://www.highereducationdigest.com/wp-content/uploads/2020/09/NIIT-550x330.jpg",
+        link: "https://www.niit.com/nigeria"
     },
     {
         id: 8,
-        name: "How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-        tags: ["react", "framer-motion", "styled-components"],
-        date: "26 May, 2021",
-        imgSrc: "https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-        link: "https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
+        name: "Web development Service @Masrae Fashion Service",
+        tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery\n", "Web Hosting", "WordPress"],
+        date: "2015 - Remotely",
+        imgSrc: "https://z-m-scontent.flos5-1.fna.fbcdn.net/v/t1.18169-9/13880356_1102183286527811_531174428478035519_n.jpg?stp=cp0_dst-jpg_e15_q65_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=dd9801&_nc_ohc=i-V_uQSHTswAX88qraY&_nc_ad=z-m&_nc_cid=1080&_nc_eh=69ef6c53ef47e1863e1d659ebd021ddd&_nc_rml=0&_nc_ht=z-m-scontent.flos5-1.fna&oh=00_AT-vGCpAyG56JVxaacLopkzIaYB2CJfL6MZEFuitF1aGog&oe=6327F5F1",
+        link: "#"
     },
 
 ] 
