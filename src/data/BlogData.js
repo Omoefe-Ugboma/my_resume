@@ -1,7 +1,7 @@
 export const Blogs = [
     {
         id: 1,
-        name: "WEB APPLICATION DEVELOPER",
+        name: "WEB APPLICATION DEVELOPER @Metadata Group of Company",
         tags: ["Bootstrap", "react", "styled-components", "Django", "Software Dev", "MySql", "DevOp"],
         // date: "13 June, 2022",
         date: "13 June, 2022 - present",
@@ -10,7 +10,7 @@ export const Blogs = [
     },
     {
         id: 2,
-        name: "FRONT-END DEVELOPER (ANGULAR)",
+        name: "FRONT-END DEVELOPER (ANGULAR) @Cousant [Investmentone Financial Services]",
         tags: ["Angular", "Angular Material", "NGRX", "RSJX", "Bootstrap", "Responsive Design"],
         date: "2021 - 2022",
         imgSrc: "https://nairametrics.com/wp-content/uploads/2020/06/images.png",
@@ -18,10 +18,10 @@ export const Blogs = [
     },
     {
         id: 3,
-        name: "Co-Founder and Full-Stack Developer",
-        tags: ["HTML5", "CSS3", "styled-components"],
-        date: "6 July, 2021",
-        imgSrc: "https://codebucks.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1625552344293%2Fegwis0UIX.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
+        name: "Co-Founder and Full-Stack Developer @PromateLink Solutions Limited",
+        tags: ["HTML5", "CSS3", "Bootstrap", "React", "Redux", "Mentorship"],
+        date: "2017 Remotely",
+        imgSrc: "https://lh6.googleusercontent.com/-kL8Kko8pDCY/AAAAAAAAAAI/AAAAAAAAAAA/TTtWnda8MM4/s60-c-k-mo/photo.jpg",
         link: "https://codebucks.hashnode.dev/react-loading-screens"
     },
     {
