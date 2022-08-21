@@ -59,7 +59,7 @@ const SocialIcons = (props) => {
                 initial={{ transform: "scale(0)" }}
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 1.6 }}>
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/Omoefe-Ugboma/Number_Guessing_Game" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/Omoefe-Ugboma/FlexTlwebsite" }}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
