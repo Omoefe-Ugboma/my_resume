@@ -115,25 +115,84 @@ const MySkillsPage = () => {
                                 WordPress
                             </li>
                             <li>
-
+                                SEO knowledge
                             </li>
                         </ul>
                     </Description>
                 </Main>
                 <Main>
                     <Title>
-                        <Develope width={40} height={40} /> Frontend Developer
+                        <Develope width={40} height={40} /> Front-End Developer
                     </Title>
                     <Description>
-                        I love to create design which speaks, keep it clean, minimal and simple.
+                        creating new user-facing features, choosing the layout and structure of web pages, creating reusable programs, reducing the amount of time it takes for pages to load, and employing a range of markup languages to make the web page.
                     </Description>
                     <Description>
                         <strong>Skills</strong>
-                        <p>Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.</p>
+                        <p>Html, Css, Js, React, Redux, Angular, Angular Material, NgRx, Sass, Bootstrap, Tailwind, Rest Api's etc.</p>
                     </Description>
                     <Description>
                         <strong>Tools</strong>
-                        <p>VScode, Github, Codepen etc.</p>
+                        <p>VScode, Source Control, Codepen, Linux, CI/CD etc.</p>
+                    </Description>
+                </Main>
+                <BigTitle text="SKILLS" top="80%" right="30%" />
+            </Box>
+            <Box>
+
+                <LogoComponent theme='light' />
+                <SocialIcons theme='light' />
+                <PowerButton />
+                <ParticleComponent theme='light' />
+                <Main>
+                    <Title>
+                        <Design width={40} height={40} />Back-End Developer
+                    </Title>
+                    <Description>creates server-side features and components that are indirectly accessed by users through front-end software or systems. able to create, maintain, test, and debug the complete back end.
+                    </Description>
+                    <Description>
+                        <strong>I like to Develop</strong>
+                        <ul>
+                            <li>
+                                Experience designing RESTful APIs, specifically for web and mobile apps.
+                            </li>
+                            <li>
+                                Experience leading a team
+                            </li>
+                            <li>
+                                Optimization of web applications for performance and scalability
+                            </li>
+                        </ul>
+                    </Description>
+                    <Description>
+                        <strong>Tools</strong>
+                        <ul>
+                            <li>
+                                Python, Django, Node, Express, Java, Spring Boot
+                            </li>
+                            <li>
+                                MySQL, Postman, Swager,
+                            </li>
+                            <li>
+                                SEO knowledge
+                            </li>
+                        </ul>
+                    </Description>
+                </Main>
+                <Main>
+                    <Title>
+                        <Develope width={40} height={40} /> Software Engineer
+                    </Title>
+                    <Description>
+                        creating new user-facing features, choosing the layout and structure of web pages, creating reusable programs, reducing the amount of time it takes for pages to load, and employing a range of markup languages to make the web page.
+                    </Description>
+                    <Description>
+                        <strong>Skills</strong>
+                        <p>Html, Css, Js, React, Redux, Angular, Angular Material, NgRx, Sass, Bootstrap, Tailwind, Rest Api's etc.</p>
+                    </Description>
+                    <Description>
+                        <strong>Tools</strong>
+                        <p>VScode, Source Control, Codepen, Linux, CI/CD etc.</p>
                     </Description>
                 </Main>
                 <BigTitle text="SKILLS" top="80%" right="30%" />
