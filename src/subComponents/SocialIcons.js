@@ -3,7 +3,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 // import { Facebook, Github, Twitter, YouTube } from '../components/AllSvgs'
-import { Github, Twitter, Facebook, YouTube } from '../components/AllSvgs'
+import { Github, Linkedin } from '../components/AllSvgs'
 import { DarkTheme } from '../components/Themes'
 
 const Icons = styled.div`
@@ -35,7 +35,7 @@ const SocialIcons = (props) => {
                 initial={{ transform: "scale(0)" }}
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 1 }}>
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/Omoefe-Ugboma/book_list_app" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/Omoefe-Ugboma" }}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
@@ -43,11 +43,11 @@ const SocialIcons = (props) => {
                 initial={{ transform: "scale(0)" }}
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 1.2 }}>
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/Omoefe-Ugboma/AirbnbClone" }}>
-                    <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.linkedin.com/in/omoefe-ugboma-3236a625" }}>
+                    <Linkedin width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
-            <motion.div
+            {/* <motion.div
                 initial={{ transform: "scale(0)" }}
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: "spring", duration: 1, delay: 1.4 }}>
@@ -62,7 +62,7 @@ const SocialIcons = (props) => {
                 <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/Omoefe-Ugboma/FlexTlwebsite" }}>
                     <YouTube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
-            </motion.div>
+            </motion.div> */}
 
             <Line color={props.theme}
                 initial={{
