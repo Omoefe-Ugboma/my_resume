@@ -26,7 +26,7 @@ padding: 2rem;
 width:30vw;
 height:60vh;
 z-index:3;
-line-height:1.5;
+line-height:1.2;
 cursor:pointer;
 
 font-family:'Ubuntu Nono',monospace;
@@ -58,7 +58,7 @@ ${Main}:hover &{
 `
 const Description = styled.div`
 color: ${props => props.theme.text};
-font-size:calc(0.6em + 1vw);
+font-size:calc(0.3em + 1vw);
 padding:0.5rem 0;
 
 ${Main}:hover &{
@@ -89,17 +89,19 @@ const MySkillsPage = () => {
                     <Title>
                         <Design width={40} height={40} />Web Designer
                     </Title>
-                    <Description>
-                        I love to create design which speaks, keep it clean, minimal and simple.
+                    <Description>Designing and constructing website interfaces, navigation, and aesthetics for clients and enterprises. a seasoned web designer who continues to provide clients with services.
                     </Description>
                     <Description>
                         <strong>I like to Design</strong>
                         <ul>
                             <li>
-                                Web Design
+                                Engaging and responsive landing pages
                             </li>
                             <li>
-                                Mobile Apps
+                                Integrating client CMS programs and data feeds into websites
+                            </li>
+                            <li>
+                                Optimising sites for maximum speed and scalability
                             </li>
                         </ul>
                     </Description>
@@ -108,6 +110,12 @@ const MySkillsPage = () => {
                         <ul>
                             <li>
                                 Figma
+                            </li>
+                            <li>
+                                WordPress
+                            </li>
+                            <li>
+
                             </li>
                         </ul>
                     </Description>
