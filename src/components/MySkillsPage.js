@@ -171,10 +171,7 @@ const MySkillsPage = () => {
                                 Python, Django, Node, Express, Java, Spring Boot
                             </li>
                             <li>
-                                MySQL, Postman, Swager,
-                            </li>
-                            <li>
-                                SEO knowledge
+                                MySQL, Docker, Postman, Swager,
                             </li>
                         </ul>
                     </Description>
@@ -184,15 +181,15 @@ const MySkillsPage = () => {
                         <Develope width={40} height={40} /> Software Engineer
                     </Title>
                     <Description>
-                        creating new user-facing features, choosing the layout and structure of web pages, creating reusable programs, reducing the amount of time it takes for pages to load, and employing a range of markup languages to make the web page.
+                        utilizing engineering principles while creating software. Develop, create, and test user-satisfactory end-user programs using software programming languages, as well as analyze and modify the software that is already in use.
                     </Description>
                     <Description>
                         <strong>Skills</strong>
-                        <p>Html, Css, Js, React, Redux, Angular, Angular Material, NgRx, Sass, Bootstrap, Tailwind, Rest Api's etc.</p>
+                        <p>Object-oriented Programming, Data Structures and Algorithms, Database Development</p>
                     </Description>
                     <Description>
-                        <strong>Tools</strong>
-                        <p>VScode, Source Control, Codepen, Linux, CI/CD etc.</p>
+                        <strong>Technical Skills</strong>
+                        <p>JavaScript(ES6, Redux), Building API's, MySQL, SQL, TypeScript and more.</p>
                     </Description>
                 </Main>
                 <BigTitle text="SKILLS" top="80%" right="30%" />
