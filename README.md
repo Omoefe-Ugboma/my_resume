@@ -2,12 +2,12 @@
 
 This repository contains my Portfolio Website in ReactJS. <br />
 
-### View Demo👇: <br />
-### https://react-portfolio-sigma.vercel.app/ <br />
+<!-- View Demo👇: <br />
+https://react-portfolio-sigma.vercel.app/ <br />
 
-### If you want to learn how to create it please follow below tutorial👇: <br />
+If you want to learn how to create it please follow below tutorial👇: <br />
 
-### https://youtu.be/jcohAIaSy2M <br />
+https://youtu.be/jcohAIaSy2M <br /> -->
 
 ----------------------------------------------------------------------------------------------
 ### NOTE: 
