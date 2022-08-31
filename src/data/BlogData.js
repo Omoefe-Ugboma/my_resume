@@ -6,7 +6,7 @@ export const Blogs = [
         // date: "13 June, 2022",
         date: "13 June, 2022 - present",
         imgSrc: "https://res.cloudinary.com/practicaldev/image/fetch/s--sBeV06Xc--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2yrzy75q4dzibqz6rf82.png",
-        link: ""
+        link: "http://metadata-group.com/"
     },
     {
         id: 2,
