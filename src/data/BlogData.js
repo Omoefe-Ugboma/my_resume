@@ -2,7 +2,7 @@ export const Blogs = [
     {
         id: 1,
         name: "WEB APPLICATION DEVELOPER @Metadata Group of Company",
-        tags: ["Bootstrap", "react", "styled-components", "Django", "Software Dev", "MySql", "DevOp"],
+        tags: ["Bootstrap", "react", "redux-toolkit", "styled-components", "Django", "Software Dev", "MySql", "DevOp"],
         // date: "13 June, 2022",
         date: "13 June, 2022 - present",
         imgSrc: "http://metadata-group.com/assets/images/logo.png",
