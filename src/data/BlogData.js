@@ -35,7 +35,7 @@ export const Blogs = [
     {
         id: 5,
         name: "Back-End Web Developer @African Prudential Plc",
-        tags: ["PHP", "codeigniter 3", "Laravel", "MySQL", "PHPUnit Test"],
+        tags: ["PHP", "JavaScript/ES6", "codeigniter 3", "Laravel", "MySQL", "PHPUnit Test"],
         date: "2019",
         imgSrc: "https://pbs.twimg.com/profile_images/1080360101280649216/d2SKgVMm_400x400.jpg",
         link: "https://africaprudential.com/"
