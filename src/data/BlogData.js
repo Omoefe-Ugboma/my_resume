@@ -11,7 +11,7 @@ export const Blogs = [
     {
         id: 2,
         name: "FRONT-END DEVELOPER (ANGULAR) @Cousant [Investmentone Financial Services]",
-        tags: ["Angular", "Angular Material", "NGRX", "RSJX", "Bootstrap", "Responsive Design"],
+        tags: ["Angular", "Angular Material", "NGRX", "RXJS", "Bootstrap", "Responsive Design", "WordPress"],
         date: "2021 - 2022",
         imgSrc: "https://nairametrics.com/wp-content/uploads/2020/06/images.png",
         link: "https://www.investment-one.com/"
