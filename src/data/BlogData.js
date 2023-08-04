@@ -3,7 +3,7 @@ export const Blogs = [
         id: 1,
         name: "SOFTWARE ARCHITECT @Meridian Technologies Limited",
         tags: ["Data Science", "Data Analyst", "Enterprise Software Application", "Enterprise Architech Planning", "Projecct Analyst", "Scrum Master", "Software Dev", "MySql", "DevOp"],
-        // date: "13 June, 2022",
+        // date: "13 June, 2022 " Just deploying changes
         date: "13 June, 2022 - present",
         imgSrc: "https://www.meridiantechnologies.net/wp-content/uploads/2020/03/logo.svg",
         link: "https://www.meridiantechnologies.net/"
